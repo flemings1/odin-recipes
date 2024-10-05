@@ -1,15 +1,19 @@
-.heading {
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.heading, .headings {
     background-color: #4a7c59;
     color: #faf3dd;
     text-align: center;
 }
-.lasagna-link,
-.french-toast-link,
-.mushroom-soup-link {
-background-color: #8fc0a9;
+.link {
 color: #faf3dd;
-font-size: 30px;
-line-height: 50px;
-border-color: darkgrey;
-
+font-size: 20px;
+font-weight: bold;
+line-height: 40px;
+border-width: 0px;
+text-decoration: none;
+}
+.text {
+    color: white;
 }
