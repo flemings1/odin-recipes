@@ -1,0 +1,15 @@
+.heading {
+    background-color: #4a7c59;
+    color: #faf3dd;
+    text-align: center;
+}
+.lasagna-link,
+.french-toast-link,
+.mushroom-soup-link {
+background-color: #8fc0a9;
+color: #faf3dd;
+font-size: 30px;
+line-height: 50px;
+border-color: darkgrey;
+
+}
