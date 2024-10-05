@@ -6,13 +6,18 @@
     color: #faf3dd;
     text-align: center;
 }
+
+a {
+    color: #faf3dd;
+    text-decoration: line;
+}
+
 .link, .links {
-color: #faf3dd;
 font-size: 20px;
 font-weight: bold;
 line-height: 40px;
-text-decoration: line;
 }
+
 .text {
     color: white;
 }
