@@ -2,27 +2,47 @@
     font-family: Verdana, Arial, Tahoma, sans-serif
 }
 .heading, .headings {
-    background-color: #4a7c59;
-    color: #faf3dd;
+    font-family: "Josefin Sans";
+    text-shadow: 4px 4px 4px #000000;
+    color: #3E362E;
     text-align: center;
+    font-size: 90px;
 }
 
 a {
-    color: #a6eb98;
     text-decoration: line;
 }
 
-.link, .links {
-font-size: 20px;
-font-weight: bold;
-line-height: 40px;
-color: white;
+.link {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    background-color: #eee;
+    width: 270px;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #444;
+    margin: center;
+    color: black
 }
 
-.text {
-    color: white;
+.horizontal-boxes {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center; 
 }
 
-ul, ol {
-    line-height: 29px;
+.buttons a:hover {
+    background-color: lightgrey;
+}
+
+.horizontal-boxes li {
+    margin-right: 20px;
+
 }
