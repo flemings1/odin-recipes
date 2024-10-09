@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Arial, Tahoma, sans-serif
+    font-family: Arial, Tahoma, sans-serif
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 }
 
 .buttons h2 {
-    margin-top: 100px;
+    margin-top: 155px;
     font-size: 45px;
     color: #fdf57b;
     text-shadow: 2px 2px 2px #000000;
@@ -30,8 +30,13 @@ body {
     width: 25%; /* Adjust the width as needed (e.g., 120% of the h2 width) */
     height: 3px; /* Thickness of the line */
     background-color: #fdf57b; /* Color of the line */
-    margin: 10px auto 0; /* Center the line below the heading */
+    margin: 5px auto 0; /* Center the line below the heading */
 }
+
+.buttons p {
+    
+}
+
 .link {
     font-size: 15px;
     font-weight: bold;
@@ -48,8 +53,6 @@ body {
     box-shadow: 1px 1px 2px #444;
     color: black;
 }
-
-
 
 .buttons ul {
     position: relative;
