@@ -1,20 +1,37 @@
 * {
     font-family: Verdana, Arial, Tahoma, sans-serif
 }
-.heading, .headings {
+
+body {
+    background-color: #b418187a;
+}
+
+.heading, h2 {
     font-family: "Josefin Sans";
     text-shadow: 4px 4px 4px #000000;
-    color: #3E362E;
+    color: #fdf57b;
     text-align: center;
     font-size: 90px;
     position: relative; /* Makes sure the heading text stays on top of the image and doesn't move around */
     z-index: 2; /* z-index controls overlapping of other elements this will help the headings stay above the background image */
 }
 
-a {
-    text-decoration: line;
+.buttons h2 {
+    margin-top: 100px;
+    font-size: 45px;
+    color: #fdf57b;
+    text-shadow: 2px 2px 2px #000000;
+    position: relative; /* Make sure the ::after can be positioned relative to the h2 */
 }
 
+.buttons h2::after {
+    content: ""; /* Required for pseudo-elements */
+    display: block; /* Makes it act like a block element */
+    width: 25%; /* Adjust the width as needed (e.g., 120% of the h2 width) */
+    height: 3px; /* Thickness of the line */
+    background-color: #fdf57b; /* Color of the line */
+    margin: 10px auto 0; /* Center the line below the heading */
+}
 .link {
     font-size: 15px;
     font-weight: bold;
@@ -32,9 +49,11 @@ a {
     color: black;
 }
 
-.buttons {
+
+
+.buttons ul {
     position: relative;
-    margin-top: 50px;
+    margin-top: 250px; /* Moves buttons down */
 }
 
 .horizontal-boxes {
