@@ -7,6 +7,7 @@
     color: #3E362E;
     text-align: center;
     font-size: 90px;
+    position: relative; /* Makes sure the heading text stays on top of the image */
 }
 
 a {
@@ -40,6 +41,19 @@ a {
 
 .buttons a:hover {
     background-color: lightgrey;
+}
+
+.image-container {
+    background-color: #222222;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.image-container img {
+    opacity: .5;
+    height: 100%;
+    width: 100%;
 }
 
 .horizontal-boxes li {
