@@ -33,8 +33,10 @@ body {
     margin: 5px auto 0; /* Center the line below the heading */
 }
 
-.buttons p {
-    
+.buttons .about-us {
+    margin: -25px 100px 0px;
+    color: white;
+    text-align: center;
 }
 
 .link {
@@ -45,18 +47,18 @@ body {
     display: flex;
     justify-content: center; /* Align items horizontally */
     align-items: center; /* Align items vertically */
-    background-color: #eee;
+    background-color: #874F41;
     width: 270px;
     height: 90px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #5a352b;
     box-shadow: 1px 1px 2px #444;
-    color: black;
+    color: white;
 }
 
 .buttons ul {
     position: relative;
-    margin-top: 250px; /* Moves buttons down */
+    margin-top: 3em; /* Moves buttons down */
 }
 
 .horizontal-boxes {
@@ -67,7 +69,7 @@ body {
 }
 
 .buttons a:hover {
-    background-color: lightgrey;
+    background-color: #503027;
 }
 
 .image-container {
