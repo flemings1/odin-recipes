@@ -3,12 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #FBE9D0;
 }
 
 body {
     background-color: #874F41;
-    margin: 0;
-    padding: 0;
 }
 
 .heading, h2, h1 {
@@ -21,7 +20,7 @@ body {
     z-index: 2; /* z-index controls overlapping of other elements this will help the headings stay above the background image */
 }
 
-.buttons h2 {
+h2 {
     margin-top: 14.5rem;
     font-size: 2rem;
     color: #d4c710;
@@ -29,10 +28,10 @@ body {
     position: relative; /* Make sure the ::after can be positioned relative to the h2 */
 }
 
-.buttons h2::after {
+h2::after {
     content: ""; /* Required for pseudo-elements */
     display: block; /* Makes it act like a block element */
-    width: 50%; /* Adjust the width as needed (e.g., 120% of the h2 width) */
+    width: 20%; /* Adjust the width as needed (e.g., 120% of the h2 width) */
     height: 3px; /* Thickness of the line */
     background-color: #d4c710; /* Color of the line */
     margin: 5px auto 0; /* Center the line below the heading */
@@ -45,11 +44,36 @@ body {
     max-width: 80%;
 }
 
-p {
-    color: #FBE9D0;
+.recipes h2 {
+    margin-top: .1em;
+    padding: .5em;
 }
 
-.link {
+.recipes h2::after {
+    width: 30%
+}
+
+.recipes {
+    padding: 3em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.recipes ul {
+    list-style-position: inside;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.recipes li {
+    margin-bottom: .5rem;
+    text-align: left;
+}
+.recipes h1 {
+    margin-bottom: -1rem;
+}
+
+.link, .links{
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.5;
@@ -79,7 +103,7 @@ p {
     flex-wrap: wrap;
 }
 
-.buttons a:hover {
+.buttons a:hover, .links:hover {
     background-color: #503027;
 }
 
